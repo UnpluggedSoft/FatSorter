@@ -1,0 +1,8 @@
+﻿<ResourceDictionary
+	x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<LinearGradientBrush x:Uid="LinearGradientBrush_1" x:Key="BrushGreenGradient" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop x:Uid="GradientStop_1" Color="#FF012B01" Offset="0"/>
+		<GradientStop x:Uid="GradientStop_2" Color="#FF516851" Offset="1"/>
+	</LinearGradientBrush>
+</ResourceDictionary>

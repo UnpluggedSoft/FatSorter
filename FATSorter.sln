@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FATSorter", "FATSorter\FATSorter.csproj", "{DB460870-18D5-4EAB-B441-6BFB3368DEBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolosTekUtility", "HolosTekUtility\HolosTekUtility.csproj", "{019822B9-20FE-452D-8C7B-C680A50808FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB460870-18D5-4EAB-B441-6BFB3368DEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB460870-18D5-4EAB-B441-6BFB3368DEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB460870-18D5-4EAB-B441-6BFB3368DEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB460870-18D5-4EAB-B441-6BFB3368DEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019822B9-20FE-452D-8C7B-C680A50808FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019822B9-20FE-452D-8C7B-C680A50808FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019822B9-20FE-452D-8C7B-C680A50808FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019822B9-20FE-452D-8C7B-C680A50808FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

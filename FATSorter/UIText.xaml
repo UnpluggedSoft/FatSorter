@@ -1,0 +1,9 @@
+﻿<ResourceDictionary x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xml:lang="en-US">
+    <system:String x:Uid="FatSorterTitle" x:Key="FatSorterTitle">FAT Sorter</system:String>
+    <system:String x:Uid="FolderDialogDescription" x:Key="FolderDialogDescription">Select a folder to sort.</system:String>
+    <system:String x:Uid="FolderDoesNotExist" x:Key="FolderDoesNotExist">The selected folder does not exist.</system:String>
+    <system:String x:Uid="SortingCompleted" x:Key="SortingCompleted">Sorting completed successfully.</system:String>
+</ResourceDictionary>
