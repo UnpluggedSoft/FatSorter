@@ -1,4 +1,4 @@
-﻿<Window x:Class="FatSorter.Window1" x:Uid="FatSorterWindow1"
+﻿<Window x:Class="UnpluggedSoft.FatSorter.MainWindow" x:Uid="FatSorterWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="FAT Sorter" Height="auto" Width="550" BorderBrush="Black" Foreground="WhiteSmoke"
@@ -15,6 +15,7 @@
         <Label x:Uid="folderLabel" Height="28" HorizontalAlignment="Left" VerticalAlignment="Top" Width="Auto" Foreground="WhiteSmoke" Content="Folder to Sort" />
         <TextBox x:Uid="textBoxDirectory" Height="23" Margin="0,28,237,0" x:Name="textBoxDirectory" VerticalAlignment="Top" />
         <CheckBox x:Uid="recursiveLabel" Height="Auto" HorizontalAlignment="Left" Margin="8,57,0,0" x:Name="checkBoxRecursive" VerticalAlignment="Top" Width="Auto" Foreground="WhiteSmoke" Content="Process subfolders" />
+        <CheckBox x:Uid="ejectLabel" Height="Auto" HorizontalAlignment="Right" Margin="0,57,10,0" x:Name="checkBoxEject" VerticalAlignment="Top" Width="Auto" Foreground="WhiteSmoke" Content="Eject when finished" />
         <ProgressBar x:Uid="progressSorting" Height="20" Margin="0,80,0,0" x:Name="progressSorting" VerticalAlignment="Top" Foreground="#FF01D328" />
         <Expander x:Uid="progressDetailsLabel" Margin="0,110,0,0" x:Name="expanderProgress" Foreground="WhiteSmoke" IsExpanded="False" VerticalAlignment="Top" Height="auto" VerticalContentAlignment="Top" Header="Progress Details">
             <ScrollViewer x:Uid="scrollViewerProgress" Margin="0,5,0,0" x:Name="scrollViewerProgress" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" CanContentScroll="False" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Height="200" FontFamily="Segoe UI" FontSize="10" >

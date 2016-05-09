@@ -13,9 +13,9 @@ using System;
 [assembly: AssemblyTitle("FatSorter")]
 [assembly: AssemblyDescription("Sorts files on a FAT file system.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HolosTek, Inc.")]
+[assembly: AssemblyCompany("Unplugged Software Company")]
 [assembly: AssemblyProduct("FAT Sorter")]
-[assembly: AssemblyCopyright("Copyright © 2008, HolosTek, Inc.")]
+[assembly: AssemblyCopyright("Copyright © 2016, Unplugged Software Company")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -54,6 +54,6 @@ using System;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.4.0")]
-[assembly: AssemblyFileVersion("1.0.4.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]

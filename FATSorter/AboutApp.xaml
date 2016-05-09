@@ -1,0 +1,18 @@
+﻿<Window x:Uid="WindowAbout" x:Class="UnpluggedSoft.FatSorter.AboutApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="About..." SizeToContent="WidthAndHeight">
+    <Grid x:Uid="GridAbout" Margin="10,0,10,10">
+        <Image x:Uid="imageLogo" Height="300" Width="300" Margin="0,0,0,0" Name="imageLogo" />
+        <Label x:Uid="labelName" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="Auto" FontWeight="Bold">The Program</Label>
+        <Label x:Uid="labelAssemblyName" Height="28" Margin="0,28,0,0" Name="labelAssemblyName" VerticalAlignment="Top"></Label>
+        <Label x:Uid="labelCompany" Height="28" Margin="0,56,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold">The Company</Label>
+        <Label x:Uid="labelAssemblyCompany" Height="28" Margin="0,84,0,0" Name="labelAssemblyCompany" VerticalAlignment="Top"></Label>
+        <Label x:Uid="labelDescription" Height="28" Margin="0,112,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold">What It Does</Label>
+        <ScrollViewer x:Uid="ScrollViewer_1" Margin="0,140,0,56" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Uid="textBoxDescription" Name="textBoxDescription" BorderThickness="0" Background="Transparent" />
+        </ScrollViewer>
+        <Label x:Uid="labelCopyright" Height="28" Margin="0,0,0,28" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontWeight="Bold">Legal Information</Label>
+        <Label x:Uid="labelAssemblyCopyright" Height="28" Margin="0,0,0,0" Name="labelAssemblyCopyright" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

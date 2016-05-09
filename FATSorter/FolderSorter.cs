@@ -10,7 +10,7 @@ using System.Windows.Threading;
 using System.Globalization;
 using System.Security;
 
-namespace FatSorter
+namespace UnpluggedSoft.FatSorter
 {
 	class FolderSorter : Component
 	{

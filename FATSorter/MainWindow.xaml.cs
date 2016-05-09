@@ -7,14 +7,14 @@ using System.Resources;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace FatSorter
+namespace UnpluggedSoft.FatSorter
 {
 	/// <summary>
 	/// Interaction logic for Window1.xaml
 	/// </summary>
-	public partial class Window1 : Window
+	public partial class MainWindow : Window
 	{
-		public Window1()
+		public MainWindow()
 		{
 			InitializeComponent();
 			this.loadSettings();
@@ -182,7 +182,7 @@ namespace FatSorter
 
 		private void buttonAbout_Click(object sender, RoutedEventArgs e)
 		{
-			HolosTekUtility.AboutApp aboutDialog = new HolosTekUtility.AboutApp();
+			AboutApp aboutDialog = new AboutApp();
 			aboutDialog.Show();
 		}
 		#endregion
